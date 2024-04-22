@@ -1,4 +1,5 @@
 *.parquet
 *.json
 *.csv
-
+*.jar
+*.env
