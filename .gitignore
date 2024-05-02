@@ -3,3 +3,5 @@
 *.csv
 *.jar
 *.env
+*.zip 
+*.gz

@@ -2,3 +2,5 @@ google-auth
 google-cloud-storage
 python.dotenv
 wordcloud
+nltk
+langdetect
