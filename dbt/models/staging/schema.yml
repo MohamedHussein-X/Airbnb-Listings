@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database : airbnb-listings-421017
+    schema : Airbnb_dataset
+    tables:
+    
+      - name: reviews_polarized
+      - name: airbnb_listings
+
