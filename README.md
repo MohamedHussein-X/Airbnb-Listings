@@ -18,6 +18,8 @@
    - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
 6. [Built with](#built-with)
 7. [Installing and running](#installing-and-running)
+8. [Further Improvements](#further-improvements)
+9. [Developers](#developers)
 
 ##  📖 Overview
 
@@ -222,7 +224,7 @@ Regression Models that we used for listing price prediction are :
 > For more details about ML models implementation  check ` ML-Molels.ipynb ` 
 
 
-### 🛠️ Built with
+### 🛠️ Built With
 
 + [Python 3](http://www.python.org/) - Main programming language used, done in Jupyter Notebook.
 + [Pandas](https://pandas.pydata.org/) - Main library used to manipulate the datasets.
