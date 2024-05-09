@@ -1,7 +1,7 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-1. [Overview](#overview)
+1. [Overview](#problem-overview)
 2. [Data Source](#data-source)
 3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
 4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
@@ -18,8 +18,10 @@
    - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
 6. [Built with](#built-with)
 7. [Installing and running](#installing-and-running)
+8. [Further Improvements](#further-improvements)
+9. [Developers](#developers)
 
-##  📖 Overview
+##  📖 Problem Overview
 
 We conduct comprehensive **Airbnb data analytics**, encompassing pricing dynamics, common features in listings, and business insights. Our analysis empowers hosts to optimize revenue by understanding key pricing factors and customer preferences, while assisting travelers in finding affordable listings with desired amenities.
 
@@ -222,7 +224,7 @@ Regression Models that we used for listing price prediction are :
 > For more details about ML models implementation  check ` ML-Molels.ipynb ` 
 
 
-### 🛠️ Built with
+### 🛠️ Built With
 
 + [Python 3](http://www.python.org/) - Main programming language used, done in Jupyter Notebook.
 + [Pandas](https://pandas.pydata.org/) - Main library used to manipulate the datasets.
