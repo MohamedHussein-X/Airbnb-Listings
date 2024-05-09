@@ -4,3 +4,11 @@ python.dotenv
 wordcloud
 nltk
 langdetect
+catboost
+graphviz
+xgboost
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn

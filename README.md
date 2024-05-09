@@ -20,7 +20,7 @@
 6. [Built With](#-built-with)
 7. [Installing and running](#installing-and-running)
 8. [Further Improvements](#further-improvements)
-9. [Developers](#developers)
+9. [Developers](#-developers)
 
 ##  📖 Problem Overview
 
