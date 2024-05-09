@@ -1,7 +1,7 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-1. [Overview](#-overview)
+1. [Overview](#overview)
 2. [Data Source](#data-source)
 3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
 4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
@@ -226,7 +226,7 @@ Regression Models that we used for listing price prediction are :
 > For more details about ML models implementation  check ` ML-Molels.ipynb ` 
 
 
-### 🛠️ Built With
+### Built With
 
 + [Python 3](http://www.python.org/) - Main programming language used, done in Jupyter Notebook.
 + [Pandas](https://pandas.pydata.org/) - Main library used to manipulate the datasets.
@@ -234,7 +234,7 @@ Regression Models that we used for listing price prediction are :
 + [Matplotlib](https://matplotlib.org/) - Used for graph plots and visualizations.
 + [Python NLTK](https://www.nltk.org/) - Used during exploratory analysis to get further insights into the textual data.
 + [Pyspark](https://spark.apache.org/docs/latest/api/python/index.html) - Distributed computing framework used for data processing
-### ⚡️ Installing and running
+### Installing and running
 For those interested in running the data analysis and prediction models on their own machines, it is advisable to utilize the `jupyter/pyspark-notebook` Docker image, as it encompasses the primary components necessary for this task.
 to do so follow the following 
 > You are preassumed to clone the project 
