@@ -1,7 +1,7 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-1. [Overview](#problem-overview)
+1. [Overview](#-problem-overview)
 2. [Data Source](#data-source)
 3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
 4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
@@ -14,9 +14,10 @@
       - [Configure MAGE](#configure-mage)
       - [DBT](#dbt-1)
 5. [Data Science flow Implementation](#data-science-flow-implementation)
+   - [EDA](#eda)
    - [ML](#ml)
    - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
-6. [Built with](#built-with)
+6. [Built With](#-built-with)
 7. [Installing and running](#installing-and-running)
 8. [Further Improvements](#further-improvements)
 9. [Developers](#developers)
