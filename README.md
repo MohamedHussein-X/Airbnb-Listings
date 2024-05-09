@@ -1,12 +1,23 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-
-- [Overview] (#overview)
-- [Data source](#data-source)
-- [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
-    - [Data Engineering flow Implementation](#Data Engineering flow Implementation )
-  
+1. [Overview](#overview)
+2. [Data Source](#data-source)
+3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
+4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
+   - [MAGE](#mage)
+   - [Terraform](#terraform)
+   - [DBT](#dbt)
+   - [Looker Studio](#looker-studio)
+   - [Installation](#installation)
+      - [Create GCP resource](#create-gcp-resource)
+      - [Configure MAGE](#configure-mage)
+      - [DBT](#dbt-1)
+5. [Data Science flow Implementation](#data-science-flow-implementation)
+   - [ML](#ml)
+   - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
+6. [Built with](#built-with)
+7. [Installing and running](#installing-and-running)
 
 ##  📖 Overview
 
