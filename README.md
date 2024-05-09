@@ -18,9 +18,9 @@
    - [ML](#ml)
    - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
 6. [Built With](#-built-with)
-7. [Installing and running](#installing-and-running)
+7. [Installing and running](#-installing-and-running)
 8. [Further Improvements](#further-improvements)
-9. [Developers](#developers)
+9. [Developers](#-developers)
 
 ##  📖 Problem Overview
 
