@@ -150,4 +150,57 @@ you can watch this video to understand how to create a DBT project with BigQuery
    ```bash
    dbt run
    ```
-5. if all steps go well all dimensions and fact tables should be created in your BigQuery dataset and you export them to Looker. 
+5. if all steps go well all dimensions and fact tables should be created in your BigQuery dataset and you export them to Looker.
+
+
+
+## Data Science flow Implementation
+##### What factors and attributes contribute to the increased pricing of an Airbnb listing in Seattle?
+This inquiry seeks to identify the key factors and distinguishing features contributing to the higher cost of Airbnb listings in Seattle. Our methodology encompasses **2** steps: 
+1. Data preprocessing to ensure analytical relevance, conducting thorough Exploratory Analysis focusing on three key areas (**EDA**).
+2. Applying Machine Learning techniques using **4** distinct Regression models to address our regression task.
+
+![](imgs/analytics_flow.png "analytics_flow")
+
+
+### EDA
+ we conducted Exploratory Analysis on the dataset, centering on three sub-problems:
+
+1. Investigating the features, facilities, and amenities of properties that influence pricing.
+2. Identifying specific areas in Seattle where Airbnb listings command higher prices.
+3. Exploring the impact of textual data in property summaries and review sentiments on pricing.
+
+> For more details about code , graphs and statistics . check the following files with  
+> - Exploratory Analysis Problem 1.ipynb
+> - Exploratory Analysis Problem 2.ipynb
+> - Exploratory Analysis Problem 3.ipynb
+
+### ML 
+
+Regression Models that we used for listing price prediction are : 
+
+1. Linear Regression
+2. Random Forrest Regression
+3. XGBoost
+4. CatBoost
+
+#### Evaluation of the various Machine Learning Models: 
+
+| Model | Dataset | MAE  | MSE      | RMSE |
+|---|---|---|---|---|
+| Linear Regression (Map-Reduce) | Train | 43.2 | 4636.06 | 68.08 |
+| | Test | 45.1 | 5115.1 | 71.5 |
+| Linear Regression (sklearn) | Train | 37.4 | 3868.1 | 62.19 |
+| | Test | 35.6 | 3177.5 | 56.3 |
+| XGBoost | Train | 29.7 | 2373.8 | 48.7 |
+|  | Test | 35.4 | 3329.4 | 57.7 |
+| CatBoost | Train | 30.1 | 2412.6 | 49.1 |
+|  | Test | 34.6 | 3304.5 | 57.4 |
+| Random Forest| Train | 34.5 | 3334.6 | 57.7 |
+| | Test | 34.9 | 3236.6 | 56.8 |
+
+> For more details about ML models implementation  check ` ML-Molels.ipynb ` 
+
+
+
+
