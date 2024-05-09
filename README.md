@@ -1,9 +1,18 @@
+# End-to-End Airbnb Listings Data Pipeline
+
+## Table of Contents
+
+- [Overview] (#overview)
+- [Data source](#data-source)
+- [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
+    - [Data Engineering flow Implementation](#Data Engineering flow Implementation )
+  
 
 ##  📖 Overview
 
 We conduct comprehensive **Airbnb data analytics**, encompassing pricing dynamics, common features in listings, and business insights. Our analysis empowers hosts to optimize revenue by understanding key pricing factors and customer preferences, while assisting travelers in finding affordable listings with desired amenities.
 
-## Data source 
+## Data Source 
 
 The datasets for this project was obtained from **kaggle**.  we used the Airbnb dataset for Seattle and analyzed the listings in Seattle. The datasets can be obtained [here](https://www.kaggle.com/datasets/airbnb/seattle)
 
@@ -202,5 +211,51 @@ Regression Models that we used for listing price prediction are :
 > For more details about ML models implementation  check ` ML-Molels.ipynb ` 
 
 
+### 🛠️ Built with
+
++ [Python 3](http://www.python.org/) - Main programming language used, done in Jupyter Notebook.
++ [Pandas](https://pandas.pydata.org/) - Main library used to manipulate the datasets.
++ [Scikit-learn](https://scikit-learn.org/stable/) - Main library used for machine learning.
++ [Matplotlib](https://matplotlib.org/) - Used for graph plots and visualizations.
++ [Python NLTK](https://www.nltk.org/) - Used during exploratory analysis to get further insights into the textual data.
++ [Pyspark](https://spark.apache.org/docs/latest/api/python/index.html) - Distributed computing framework used for data processing
+### ⚡️ Installing and running
+For those interested in running the data analysis and prediction models on their own machines, it is advisable to utilize the `jupyter/pyspark-notebook` Docker image, as it encompasses the primary components necessary for this task.
+to do so follow the following 
+> You are preassumed to clone the project 
+1. In project directory open `cmd` thn run 
+``` bash 
+docker build -t pyspark-notebook .
+```
+2. Run the container while mapping your project directory to the volume specified in the Dockerfile:
+``` bash 
+docker run -v /path/to/your/project:/home/jovyan/work myimage
+```
+Replace /path/to/your/project with the absolute path to your project directory on the host machine.
+
+> This command will launch a container from the `pyspark-notebook` image, and the /path/to/your/project directory on 
+> your host
+>  machine will be mapped to the /home/jovyan/work directory inside the container as specified in your Dockerfile. This
+> allows the container to access and work with files from your project directory.
 
 
+3. You have to install important python packages for analysis . You can do the by running the following command :
+``` bash 
+pip install -r requirement.txt
+```
+
+## Further Improvements
+There are many things can be improved from this project: 
+- Implement CI/CD
+- Do a comprehensive testing
+## 👨‍💻 Developers
+
++ [Ahmed Lotfy](https://github.com/AhmedLotfy02)
++ [Mohamed Hussein](https://github.com/MohamedHussein-X)
+
+
+## 📄 License
+
+[![GitHub](https://img.shields.io/github/license/mohamedirfansh/Airbnb-Data-Science-Project)](https://github.com/mohamedirfansh/Airbnb-Data-Science-Project/blob/master/LICENSE)
+
+This project is licensed under the **[MIT License](http://opensource.org/licenses/mit-license.php)** - see the [LICENSE](https://github.com/mohamedirfansh/Airbnb-Data-Science-Project/blob/master/LICENSE) file for more details.  
