@@ -1,7 +1,7 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-1. [Overview](#-problem-overview)
+1. [Overview](#overview)
 2. [Data Source](#data-source)
 3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
 4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
@@ -17,12 +17,13 @@
    - [EDA](#eda)
    - [ML](#ml)
    - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
-6. [Built With](#-built-with)
+6. [Built With](#built-with)
 7. [Installing and running](#installing-and-running)
 8. [Further Improvements](#further-improvements)
-9. [Developers](#-developers)
+9. [Developers](#developers)
+10. [License](#License)
 
-##  📖 Problem Overview
+## Overview
 
 We conduct comprehensive **Airbnb data analytics**, encompassing pricing dynamics, common features in listings, and business insights. Our analysis empowers hosts to optimize revenue by understanding key pricing factors and customer preferences, while assisting travelers in finding affordable listings with desired amenities.
 
@@ -225,7 +226,7 @@ Regression Models that we used for listing price prediction are :
 > For more details about ML models implementation  check ` ML-Molels.ipynb ` 
 
 
-### 🛠️ Built With
+### Built With
 
 + [Python 3](http://www.python.org/) - Main programming language used, done in Jupyter Notebook.
 + [Pandas](https://pandas.pydata.org/) - Main library used to manipulate the datasets.
@@ -233,7 +234,7 @@ Regression Models that we used for listing price prediction are :
 + [Matplotlib](https://matplotlib.org/) - Used for graph plots and visualizations.
 + [Python NLTK](https://www.nltk.org/) - Used during exploratory analysis to get further insights into the textual data.
 + [Pyspark](https://spark.apache.org/docs/latest/api/python/index.html) - Distributed computing framework used for data processing
-### ⚡️ Installing and running
+### Installing and running
 For those interested in running the data analysis and prediction models on their own machines, it is advisable to utilize the `jupyter/pyspark-notebook` Docker image, as it encompasses the primary components necessary for this task.
 to do so follow the following 
 > You are preassumed to clone the project 
@@ -263,13 +264,13 @@ There are many things can be improved from this project:
 - Implement CI/CD
 - Do a comprehensive testing
 
-## 👨‍💻 Developers
+##  Developers
 
 + [Ahmed Lotfy](https://github.com/AhmedLotfy02)
 + [Mohamed Hussein](https://github.com/MohamedHussein-X)
 
 
-## 📄 License
+##  License
 
 [![GitHub](https://img.shields.io/github/license/mohamedirfansh/Airbnb-Data-Science-Project)](https://github.com/mohamedirfansh/Airbnb-Data-Science-Project/blob/master/LICENSE)
 
