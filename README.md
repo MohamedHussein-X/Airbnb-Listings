@@ -21,7 +21,7 @@
 7. [Installing and running](#installing-and-running)
 8. [Further Improvements](#further-improvements)
 9. [Developers](#developers)
-10. 
+10.[License](#License)
 
 ## Overview
 
