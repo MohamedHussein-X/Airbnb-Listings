@@ -1,7 +1,7 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-1. [Overview](#overview)
+1. [Overview](#problem-overview)
 2. [Data Source](#data-source)
 3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
 4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
@@ -21,7 +21,7 @@
 8. [Further Improvements](#further-improvements)
 9. [Developers](#developers)
 
-##  📖 Overview
+##  📖 Problem Overview
 
 We conduct comprehensive **Airbnb data analytics**, encompassing pricing dynamics, common features in listings, and business insights. Our analysis empowers hosts to optimize revenue by understanding key pricing factors and customer preferences, while assisting travelers in finding affordable listings with desired amenities.
 
