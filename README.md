@@ -1,7 +1,7 @@
 # End-to-End Airbnb Listings Data Pipeline
 
 ## Table of Contents
-1. [Overview](#-problem-overview)
+1. [Overview](#-overview)
 2. [Data Source](#data-source)
 3. [Data Pipeline Architecture and Workflow](#data-pipeline-architecture-and-workflow)
 4. [Data Engineering flow Implementation](#data-engineering-flow-implementation)
@@ -17,12 +17,13 @@
    - [EDA](#eda)
    - [ML](#ml)
    - [Evaluation of the various Machine Learning Models](#evaluation-of-the-various-machine-learning-models)
-6. [Built With](#-built-with)
-7. [Installing and running](#-installing-and-running)
+6. [Built With](#built-with)
+7. [Installing and running](#installing-and-running)
 8. [Further Improvements](#further-improvements)
-9. [Developers](#-developers)
+9. [Developers](#developers)
+10. 
 
-##  📖 Problem Overview
+## Overview
 
 We conduct comprehensive **Airbnb data analytics**, encompassing pricing dynamics, common features in listings, and business insights. Our analysis empowers hosts to optimize revenue by understanding key pricing factors and customer preferences, while assisting travelers in finding affordable listings with desired amenities.
 
@@ -263,13 +264,13 @@ There are many things can be improved from this project:
 - Implement CI/CD
 - Do a comprehensive testing
 
-## 👨‍💻 Developers
+##  Developers
 
 + [Ahmed Lotfy](https://github.com/AhmedLotfy02)
 + [Mohamed Hussein](https://github.com/MohamedHussein-X)
 
 
-## 📄 License
+##  License
 
 [![GitHub](https://img.shields.io/github/license/mohamedirfansh/Airbnb-Data-Science-Project)](https://github.com/mohamedirfansh/Airbnb-Data-Science-Project/blob/master/LICENSE)
 
