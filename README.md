@@ -59,7 +59,7 @@ DBT platform is employed to conduct data modeling within BigQuery, facilitating 
 Looker Studio is utilized to craft insightful dashboards showcasing statistics derived from the fact tables built through DBT, enhancing data visualization and analysis capabilities.
 
 You can access dashboard from [here](https://lookerstudio.google.com/reporting/caa749bd-82fd-43cc-91ac-0f8f78dba5dc)
-![](imgs/dashboard.png "dashboard")
+![](imgs/dashboard.jpg "dashboard")
 
 
 ### Installation
