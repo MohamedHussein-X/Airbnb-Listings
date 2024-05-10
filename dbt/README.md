@@ -1,6 +1,8 @@
 Welcome to your new dbt project!
 
-### Using the starter project
+### DBT flow
+![](../imgs/dbt_flow.png "dbt flow")
+
 
 Try running the following commands:
 - dbt run
